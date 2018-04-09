@@ -60,12 +60,12 @@
 		22B0CBDE207B058200126A46 /* SlideView */ = {
 			isa = PBXGroup;
 			children = (
+				22B0CBFA207B0AAA00126A46 /* Controllers */,
 				22B0CBF9207B097300126A46 /* SWRevealViewControllerFiles */,
 				22B0CBDF207B058200126A46 /* AppDelegate.swift */,
-				22B0CBF5207B065100126A46 /* FrontViewController.swift */,
-				22B0CBF7207B065700126A46 /* RearViewController.swift */,
 				22B0CBE3207B058200126A46 /* Main.storyboard */,
 				22B0CBE6207B058300126A46 /* Assets.xcassets */,
+				22B0CBF1207B05A500126A46 /* SlideView-Bridging-Header.h */,
 				22B0CBE8207B058300126A46 /* LaunchScreen.storyboard */,
 				22B0CBEB207B058300126A46 /* Info.plist */,
 			);
@@ -77,9 +77,17 @@
 			children = (
 				22B0CBF3207B05A600126A46 /* SWRevealViewController.h */,
 				22B0CBF2207B05A600126A46 /* SWRevealViewController.m */,
-				22B0CBF1207B05A500126A46 /* SlideView-Bridging-Header.h */,
 			);
 			path = SWRevealViewControllerFiles;
+			sourceTree = "<group>";
+		};
+		22B0CBFA207B0AAA00126A46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22B0CBF5207B065100126A46 /* FrontViewController.swift */,
+				22B0CBF7207B065700126A46 /* RearViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
