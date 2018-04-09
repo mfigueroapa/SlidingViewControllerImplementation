@@ -13,7 +13,12 @@ class FrontViewController: UIViewController {
     @IBOutlet weak var menuBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Allows simple slide with no dragging
         menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+        //Allows dragging from user making it more friendly
+        self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
 
         
     }
